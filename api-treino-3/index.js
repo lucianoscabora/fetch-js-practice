@@ -28,18 +28,4 @@ searchBtn.addEventListener('click', () =>  {
 })
 
 
-/* function buildProfile(characterId) {
-    getProfile(characterId).then(userData => {
-        let userInfo = 
-        
-        `
-        <img src="${userData.Character.Avatar}" alt="imagem x">
-        `
-        console.log(userInfo)
-        document.querySelector('.image-info').innerHTML = userInfo;
-    })
-}
-
-buildProfile(); */
-
 

@@ -1,11 +1,77 @@
-.main-container {
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.far-container {
+    background-image: linear-gradient(to bottom, rgb(209, 134, 176), rgb(125, 135, 223));
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.image-info {
-    width: 230px;
-    height: 300px;
+.test-container {
+    display: flex;
 }
+
+.main-container {
+    padding: 20px;
+    align-items: center;
+    border-radius: 10%;
+    border: 5px solid purple;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 100px;
+}
+
+.image-info {
+    margin-top: 20px;
+    width: 400px;
+    height: 500px;
+    border: 5px solid purple;
+    border-radius: 10%;
+}
+
+.jobs-list {
+    flex-flow: wrap;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+.jobs-list li {
+    min-width: 200px;
+    border: 2px solid purple;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.jobs-list li:hover {
+    background-color: rgb(225, 128, 225);
+}
+
+.jobs-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-menu {
+    background-color: rgb(169, 27, 216);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#search-btn {
+    margin-left: 20px;
+}
+
+
